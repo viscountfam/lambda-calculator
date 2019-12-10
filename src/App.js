@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {numbers} from "./data";
+import React from "react";
+// import {numbers} from "./data";
 import "./App.css";
 import Display from "./components/DisplayComponents/Display";
 import Logo from "./components/DisplayComponents/Logo";
@@ -8,7 +8,7 @@ import OperatorButton from "./components/ButtonComponents/OperatorButtons/Operat
 import SpecialButton from "./components/ButtonComponents/SpecialButtons/SpecialButton"
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
-const [numberState, setNumberState] = useState(numbers);
+//  const [numberState, setNumberState] = useState(0);
 
 // Logo has already been provided for you. Do the same for the remaining components
 
@@ -24,7 +24,7 @@ function App() {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <Display />
+        <Display hello={"hello"} goodbye={"bye"}/>
         <SpecialButton />
         <OperatorButton />
         <NumberButton />
