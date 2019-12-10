@@ -1,11 +1,14 @@
 import React from "react";
 import Operators from "./Operators"
+import {operators} from "../../../data";
 const OperatorButton = () => {
   return (
-    <>
+    <div className="Operator_container">
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      <Operators />
-    </>
+      {operators.map((button, index) => (
+        <Operators key={index} button={button} />
+      ))}
+    </div>
   );
 };
 export default OperatorButton;
