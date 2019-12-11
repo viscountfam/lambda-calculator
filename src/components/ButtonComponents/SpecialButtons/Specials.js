@@ -13,7 +13,7 @@ const Specials = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
         {specials.map((special, index) =>
-        <button key={index}>{special}</button>)}
+        <button className="spbtn btn" key={index}>{special}</button>)}
     </div>
   );
 };

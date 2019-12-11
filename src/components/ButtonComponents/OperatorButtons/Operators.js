@@ -7,7 +7,7 @@ import React from "react";
 const Operators = (props) => {
   // STEP 2 - add the imported data to state
   return (
-    <button>
+    <button className = "opbtn btn">
       <span>{props.button.value}</span>
     </button>
   );
