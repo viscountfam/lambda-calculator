@@ -1,7 +1,8 @@
 .container {
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    height: 720px;
+    max-width: 525px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
@@ -20,3 +21,65 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .btn{
+    font-size: 1.5rem;
+    height: 65px;
+    width: 65px;
+    border-radius: 100px;
+    margin: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: 1px 1.5px 5px darkslategrey;  
+    box-sizing: border-box; 
+  }
+
+  .opbtn {
+      background-color: #186f9b;
+  }
+
+  .spbtn{
+      background-color: #347bae;
+  }
+
+  .numbtn{
+      background-color: #26537b;
+  }
+.opdiv{
+    top: -475px;
+    align-self: flex-end;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    left: 390px;
+    border: none;
+}
+
+.spdiv{
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 80%;
+    
+}
+
+.numdiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 25px;
+
+}
+.logo{
+    align-self: flex-start;
+    margin: 6px 0 4px 8px;
+    padding: 5px;
+}
+img{
+    height: 25px;
+}
+
+.numdiv .btn:nth-last-child(2){
+    width: 165px;
+}
