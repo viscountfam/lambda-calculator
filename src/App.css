@@ -47,13 +47,13 @@
       background-color: #26537b;
   }
 .opdiv{
-    top: -470px;
+    top: -475px;
     align-self: flex-end;
     position: relative;
     display: flex;
     flex-direction: column;
     width: 10%;
-    left: 400px;
+    left: 390px;
     border: none;
 }
 
@@ -78,4 +78,8 @@
 }
 img{
     height: 25px;
+}
+
+.numdiv .btn:nth-last-child(2){
+    width: 165px;
 }
