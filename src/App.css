@@ -47,6 +47,7 @@
       background-color: #26537b;
   }
 .opdiv{
+    top: -470px;
     align-self: flex-end;
     position: relative;
     display: flex;
@@ -58,18 +59,16 @@
 
 .spdiv{
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 10px;
     width: 80%;
+    
 }
-.holder{
-    width: 400px;
-}
+
 .numdiv{
     display: flex;
     flex-wrap: wrap;
     width: 60%;
     margin-left: 25px;
-
 
 }
 .logo{
